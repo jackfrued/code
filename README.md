@@ -21,23 +21,23 @@
 
 
 1. 克隆项目到本地
-`git clone <url>`
+```git clone <url>```
   
 2. 创建并切换到自己的分支
-`git branch jack`
-`git checkout jack`
+```git branch jack```
+```git checkout jack```
 或
-`git checkout -b jack`
+```git checkout -b jack```
 
 3. 在自己的分支上做开发然后实施版本控制
-`git add .`
-`git commit -m 'reason'`
+```git add .```
+```git commit -m 'reason'```
 
 4. 将自己的工作合并到master上 
-`git checkout master`
-`git merge jack`
+```git checkout master```
+```git merge jack```
 如果不希望使用fast-forward方式合并（git log中没有分支记录）
-`git merge --no-ff jack -m 'reason'`
+```git merge --no-ff jack -m 'reason'```
 
 5. 如果想通过图形化的方式查看到分支信息
-`git log --graph --pretty=oneline --abbrev-commit`
+```git log --graph --pretty=oneline --abbrev-commit```
