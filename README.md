@@ -2,4 +2,4 @@
 
 2018年6月22日
 
-- 从Git服务器克隆项目到本地：git clone <url>
+- 从Git服务器克隆项目到本地：git clone \<url\>
